@@ -1,0 +1,4 @@
+# dependencies
+exercise 6/my-app/node_modules/
+/.pnp
+.pnp.js
