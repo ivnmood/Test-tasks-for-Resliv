@@ -1,0 +1,32 @@
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.item {
+    padding: 15px;
+}
+
+.enterDataEmployee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputEmployee {
+    width: 20vw;
+}
+
+.addEmployeeButton {
+    margin-left: 5vw;
+    margin-bottom: 24px;
+}
+
+.taskList {
+    line-height: 3.5rem;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+}

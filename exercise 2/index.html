@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="http://any.com/filter?size=M&color=1&color=2&manufacturer=aaa&manufacturer=ddd">
+</head>
+<body>
+
+<input type="checkbox" name="sale" id="checkbox_sale" value="1">
+<label for="checkbox_sale">Sale</label>
+
+<form>
+    <div>
+        <p>
+            <input type="radio" name="size" id="radio_s" value="S">
+            <label for="radio_s">S</label>
+
+            <input type="radio" name="size" id="radio_m" value="M">
+            <label for="radio_m">M</label>
+
+            <input type="radio" name="size" id="radio_l" value="L">
+            <label for="radio_l">L</label>
+        </p>
+
+        <p>
+            <input type="checkbox" name="color" id="checkbox_black" value="1">
+            <label for="checkbox_black">Black</label>
+
+            <input type="checkbox" name="color" id="checkbox_yellow" value="2">
+            <label for="checkbox_yellow">Yellow</label>
+
+            <input type="checkbox" name="color" id="checkbox_white" value="3">
+            <label for="checkbox_white">White</label>
+
+            <input type="checkbox" name="color" id="checkbox_red" value="4">
+            <label for="checkbox_red">Red</label>
+
+            <input type="checkbox" name="color" id="checkbox_blue" value="5">
+            <label for="checkbox_blue">Blue</label>
+        </p>
+
+        <p>
+            <label for="selectForm">Choose manufacturer</label>
+            <select id="selectForm">
+                <option name="manufacturer" value="aaa" id="select_aaa">aaa</option>
+                <option name="manufacturer" value="b&c" id="select_b&c">b&c</option>
+                <option name="manufacturer" value="ddd" id="select_ddd">ddd</option>
+            </select>
+        </p>
+
+        <button type="submit" id="send_form">Submit</button>
+
+    </div>
+</form>
+
+<br>
+<a href="../exercise%201/index.html"><h1>Prev</h1></a>
+<a href="../exercise%203/index.html"><h1>Next</h1></a>
+
+<script src="serialize.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
